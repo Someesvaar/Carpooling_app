@@ -2,10 +2,10 @@
 // Database connection using environment variables (Railway / Docker)
 
 // Get values from Railway environment
-$host = getenv('DB_HOST') ?: 'localhost';
+$host = getenv('DB_HOST') ?: 'mysql.railway.internal';
 $user = getenv('DB_USER') ?: 'root';
-$pass = getenv('DB_PASS') ?: '';
-$name = getenv('DB_NAME') ?: 'carpool_db';
+$pass = getenv('DB_PASS') ?: 'GlhfReabaCTWxldPVemlHRrioSTfZxba';
+$name = getenv('DB_NAME') ?: 'railway';
 $port = getenv('DB_PORT') ?: 3306;
 
 // Improve connection reliability
